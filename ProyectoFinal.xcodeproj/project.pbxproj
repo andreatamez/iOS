@@ -14,6 +14,14 @@
 		4957B5E92237278700F48858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4957B5E72237278700F48858 /* LaunchScreen.storyboard */; };
 		4957B5F42237278700F48858 /* ProyectoFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957B5F32237278700F48858 /* ProyectoFinalTests.swift */; };
 		4957B5FF2237278700F48858 /* ProyectoFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957B5FE2237278700F48858 /* ProyectoFinalUITests.swift */; };
+		8F27657E22493F79009A37B5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27657D22493F79009A37B5 /* Question.swift */; };
+		8F27658022493F91009A37B5 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27657F22493F91009A37B5 /* QuestionBank.swift */; };
+		8F27658222493FFF009A37B5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27658122493FFF009A37B5 /* QuizViewController.swift */; };
+		8F27658722494053009A37B5 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F27658422494052009A37B5 /* ProgressHUD.bundle */; };
+		8F27658822494053009A37B5 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F27658622494052009A37B5 /* ProgressHUD.m */; };
+		DECD9DF5224532D900BEADA9 /* ViewControllerCalculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD9DF4224532D900BEADA9 /* ViewControllerCalculadora.swift */; };
+		DECD9DF72249704B00BEADA9 /* ConsultaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD9DF62249704B00BEADA9 /* ConsultaViewController.swift */; };
+		DECD9DFB224971C300BEADA9 /* Consulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD9DFA224971C300BEADA9 /* Consulta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,16 @@
 		4957B5FA2237278700F48858 /* ProyectoFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4957B5FE2237278700F48858 /* ProyectoFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoFinalUITests.swift; sourceTree = "<group>"; };
 		4957B6002237278700F48858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F27657D22493F79009A37B5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8F27657F22493F91009A37B5 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		8F27658122493FFF009A37B5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		8F27658322494051009A37B5 /* ProyectoFinal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProyectoFinal-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F27658422494052009A37B5 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		8F27658522494052009A37B5 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		8F27658622494052009A37B5 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		DECD9DF4224532D900BEADA9 /* ViewControllerCalculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCalculadora.swift; sourceTree = "<group>"; };
+		DECD9DF62249704B00BEADA9 /* ConsultaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaViewController.swift; sourceTree = "<group>"; };
+		DECD9DFA224971C300BEADA9 /* Consulta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consulta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		4957B5D22237278600F48858 = {
 			isa = PBXGroup;
 			children = (
+				DECD9DFA224971C300BEADA9 /* Consulta.swift */,
 				4957B5DD2237278600F48858 /* ProyectoFinal */,
 				4957B5F22237278700F48858 /* ProyectoFinalTests */,
 				4957B5FD2237278700F48858 /* ProyectoFinalUITests */,
@@ -100,9 +119,18 @@
 				4957B5DE2237278600F48858 /* AppDelegate.swift */,
 				4957B5E02237278600F48858 /* ViewController.swift */,
 				4957B5E22237278600F48858 /* Main.storyboard */,
+				DECD9DF62249704B00BEADA9 /* ConsultaViewController.swift */,
+				8F27658122493FFF009A37B5 /* QuizViewController.swift */,
+				8F27657D22493F79009A37B5 /* Question.swift */,
+				8F27657F22493F91009A37B5 /* QuestionBank.swift */,
+				DECD9DF4224532D900BEADA9 /* ViewControllerCalculadora.swift */,
 				4957B5E52237278700F48858 /* Assets.xcassets */,
 				4957B5E72237278700F48858 /* LaunchScreen.storyboard */,
 				4957B5EA2237278700F48858 /* Info.plist */,
+				8F27658422494052009A37B5 /* ProgressHUD.bundle */,
+				8F27658522494052009A37B5 /* ProgressHUD.h */,
+				8F27658622494052009A37B5 /* ProgressHUD.m */,
+				8F27658322494051009A37B5 /* ProyectoFinal-Bridging-Header.h */,
 			);
 			path = ProyectoFinal;
 			sourceTree = "<group>";
@@ -193,6 +221,7 @@
 				TargetAttributes = {
 					4957B5DA2237278600F48858 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					4957B5EE2237278700F48858 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F27658722494053009A37B5 /* ProgressHUD.bundle in Resources */,
 				4957B5E92237278700F48858 /* LaunchScreen.storyboard in Resources */,
 				4957B5E62237278700F48858 /* Assets.xcassets in Resources */,
 				4957B5E42237278600F48858 /* Main.storyboard in Resources */,
@@ -257,7 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4957B5E12237278600F48858 /* ViewController.swift in Sources */,
+				8F27657E22493F79009A37B5 /* Question.swift in Sources */,
 				4957B5DF2237278600F48858 /* AppDelegate.swift in Sources */,
+				DECD9DFB224971C300BEADA9 /* Consulta.swift in Sources */,
+				8F27658822494053009A37B5 /* ProgressHUD.m in Sources */,
+				8F27658222493FFF009A37B5 /* QuizViewController.swift in Sources */,
+				8F27658022493F91009A37B5 /* QuestionBank.swift in Sources */,
+				DECD9DF5224532D900BEADA9 /* ViewControllerCalculadora.swift in Sources */,
+				DECD9DF72249704B00BEADA9 /* ConsultaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProyectoFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +478,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.ProyectoFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProyectoFinal/ProyectoFinal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProyectoFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.ProyectoFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProyectoFinal/ProyectoFinal-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
