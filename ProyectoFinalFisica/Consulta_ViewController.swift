@@ -7,24 +7,28 @@
 //
 
 import UIKit
+import PDFKit
 
-class Consulta_ViewController: UIViewController {
-
+class Consulta_ViewController: UIViewController,UIDocumentInteractionControllerDelegate {
+    
+    @IBOutlet var pdfView: PDFView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        pdfView = PDFView(frame: self.view.bounds)
+        pdfView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(pdfView)
+        
+        // Fit content in PDFView.
+        pdfView.autoScales = true
+        
+        // Load Sample.pdf file from app bundle.
+        let filepath = Bundle.main.path(forResource: "tirop", ofType: "pdf")
+        pdfView.document = PDFDocument(url: URL(fileURLWithPath: filepath!))
     }
     
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

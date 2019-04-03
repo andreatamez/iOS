@@ -17,6 +17,7 @@
 		49B094B9225276B80020BFCC /* ProyectoFinalFisicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B094B8225276B80020BFCC /* ProyectoFinalFisicaUITests.swift */; };
 		49B094C72252772E0020BFCC /* Consulta_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C62252772E0020BFCC /* Consulta_ViewController.swift */; };
 		49B094C92252808B0020BFCC /* PrimeraPantalla_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C82252808B0020BFCC /* PrimeraPantalla_ViewController.swift */; };
+		49B0954B2253F77E0020BFCC /* tirop.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49B0954A2253F77E0020BFCC /* tirop.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		49B094BA225276B80020BFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B094C62252772E0020BFCC /* Consulta_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consulta_ViewController.swift; sourceTree = "<group>"; };
 		49B094C82252808B0020BFCC /* PrimeraPantalla_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeraPantalla_ViewController.swift; sourceTree = "<group>"; };
+		49B0954A2253F77E0020BFCC /* tirop.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tirop.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				49B0949F225276B70020BFCC /* Assets.xcassets */,
 				49B094A1225276B70020BFCC /* LaunchScreen.storyboard */,
 				49B094A4225276B70020BFCC /* Info.plist */,
+				49B0954A2253F77E0020BFCC /* tirop.pdf */,
 			);
 			path = ProyectoFinalFisica;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				49B094A3225276B70020BFCC /* LaunchScreen.storyboard in Resources */,
 				49B094A0225276B70020BFCC /* Assets.xcassets in Resources */,
 				49B0949E225276B70020BFCC /* Main.storyboard in Resources */,
+				49B0954B2253F77E0020BFCC /* tirop.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
