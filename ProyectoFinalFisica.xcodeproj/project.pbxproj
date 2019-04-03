@@ -18,6 +18,7 @@
 		49B094C72252772E0020BFCC /* Consulta_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C62252772E0020BFCC /* Consulta_ViewController.swift */; };
 		49B094C92252808B0020BFCC /* PrimeraPantalla_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C82252808B0020BFCC /* PrimeraPantalla_ViewController.swift */; };
 		49B0954B2253F77E0020BFCC /* tirop.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49B0954A2253F77E0020BFCC /* tirop.pdf */; };
+		49B095602254823F0020BFCC /* ViewController_VisualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0955F2254823F0020BFCC /* ViewController_VisualViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		49B094C62252772E0020BFCC /* Consulta_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consulta_ViewController.swift; sourceTree = "<group>"; };
 		49B094C82252808B0020BFCC /* PrimeraPantalla_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeraPantalla_ViewController.swift; sourceTree = "<group>"; };
 		49B0954A2253F77E0020BFCC /* tirop.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tirop.pdf; sourceTree = "<group>"; };
+		49B0955F2254823F0020BFCC /* ViewController_VisualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_VisualViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				49B09498225276B70020BFCC /* FirstViewController.swift */,
 				49B0949A225276B70020BFCC /* SecondViewController.swift */,
 				49B0949C225276B70020BFCC /* Main.storyboard */,
+				49B0955F2254823F0020BFCC /* ViewController_VisualViewController.swift */,
 				49B094C82252808B0020BFCC /* PrimeraPantalla_ViewController.swift */,
 				49B094C62252772E0020BFCC /* Consulta_ViewController.swift */,
 				49B0949F225276B70020BFCC /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 				49B0949B225276B70020BFCC /* SecondViewController.swift in Sources */,
 				49B09497225276B70020BFCC /* AppDelegate.swift in Sources */,
 				49B09499225276B70020BFCC /* FirstViewController.swift in Sources */,
+				49B095602254823F0020BFCC /* ViewController_VisualViewController.swift in Sources */,
 				49B094C92252808B0020BFCC /* PrimeraPantalla_ViewController.swift in Sources */,
 				49B094C72252772E0020BFCC /* Consulta_ViewController.swift in Sources */,
 			);
