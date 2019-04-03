@@ -26,9 +26,11 @@ class Consulta_ViewController: UIViewController,UIDocumentInteractionControllerD
         // Load Sample.pdf file from app bundle.
         let filepath = Bundle.main.path(forResource: "tirop", ofType: "pdf")
         pdfView.document = PDFDocument(url: URL(fileURLWithPath: filepath!))
+        
+        pdfView.canZoomIn()
+        pdfView.canZoomOut()
+        
+        pdfView.autoScales = true
     }
-    
-    
-
 
 }
