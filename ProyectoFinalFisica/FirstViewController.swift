@@ -88,21 +88,21 @@ class FirstViewController: UIViewController {
                 alcancemax = alcancemax / 9.8
                 
                 tiempodevuelo = 2 * (Double(velocidadinicial) * sin(grado)) / 9.8
-                tfresult.text! = "Alcance max: " + String(alcancemax) +
-                    "altura max" + String(alturamax) + "tiempo de vuelo" + String(tiempodevuelo)
+                tfresult.text! = "Alcance max: " + String(format: "%.01f" , alcancemax) +
+                    " Altura max: " + String(format: "%.01f", alturamax) + " Tiempo de vuelo: " + String(format: "%.01f", tiempodevuelo)
                 vx = Double(velocidadinicial) * cos(grado)
                 
             }
             else if (grado != 0 && tiempo != 0) {
                 vx = Double(velocidadinicial) * cos(grado)
                 vy = Double(velocidadinicial) * sin(grado) - ( 9.8 * Double(tiempo))
-                tfresult.text! = "Vx " + String(vx) + "Vy " + String(vy)
+                tfresult.text! = "Vx: " + String(format: "%.01f", vx) + " Vy: " + String(format: "%.01f", vy)
                 
             }
             else if( grado != 0 && tiempo != 0  && velocidadinicial != 0){
                 x = Double(velocidadinicial) * cos(grado) * Double(tiempo)
                 y = Double(velocidadinicial) * sin(grado) * Double(tiempo)
-                tfresult.text = "x " + String(x) + "Y " + String(y)
+                tfresult.text = "x: " + String(format: "%.01f", x) + " Y: " + String(format: "%.01f", y)
             }
             
               validarVariables(yinicial: yinicial, yfinal: yfinal, x: x, tiempo: tiempo, grado: grado)
