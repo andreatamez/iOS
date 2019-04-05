@@ -8,8 +8,20 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
 
+class FirstViewController: UIViewController {
+    
    @IBOutlet weak var tfYinicial: UITextField!
         @IBOutlet weak var tfYfinal: UITextField!
         @IBOutlet weak var tfx: UITextField!
@@ -42,9 +54,21 @@ class FirstViewController: UIViewController {
             super.viewDidLoad()
             
             tfresult.text = "0"
+     
+            let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
             
+            //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+            //tap.cancelsTouchesInView = false
+            
+            view.addGestureRecognizer(tap)
             
         }
+    
+        override func dismissKeyboard() {
+            //Causes the view (or one of its embedded text fields) to resign the first responder status.
+            view.endEditing(true)
+        }
+    
         
         @IBAction func Resultado(_ sender: UIButton) {
 
