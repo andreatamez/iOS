@@ -10,17 +10,13 @@ import UIKit
 
 class ViewController_VisualViewController: UIViewController {
     
-    @IBOutlet weak var cancel: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func Cancelo(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
+
     
 
     /*
